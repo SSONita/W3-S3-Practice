@@ -1,0 +1,156 @@
+.container{
+    border: 2px solid black;
+    width: 500px;
+    height: 720px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px gray;
+    font-family: 'Trebuchet MS';
+}
+.pfp{
+    position: absolute;
+    border-radius: 1000px;
+    width: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 240px;
+    margin: auto;
+    border: 15px solid white;
+    
+}
+.background{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    height: 270px;
+    width: 98%;
+}
+.menu{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    transition: width 0.2s, height 0.2s;
+}
+.menu:hover{
+    width: 52px;
+    height: 52px;
+    outline: 2px solid white;
+}
+.img{
+    position: relative;
+    
+}
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 70px;
+}
+.verified{
+    width: 20px;
+}
+.job{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#Projects{
+    margin-left: 10px;
+}
+#Following{
+    margin-left: 27px;
+}
+#Followers{
+    margin-left: 13px;
+}
+.paragraph{
+    margin-top: 5px;
+    font-size: 0.8em;
+    text-align: center;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.facebook, .instagram, .github, .linkedin{
+    width: 22px;
+    height: 22px;
+    transition: width 0.4s, height 0.4s;
+}
+.instagram{
+    border-radius: 30px;
+}
+.instagram:hover{
+    border-radius: 30px;
+    width: 24px;
+    height: 24px;
+    box-shadow: 2px 2px 2px gray;
+}
+.facebook:hover{
+    border-radius: 30px;
+    width: 24px;
+    height: 24px;
+    box-shadow: 2px 2px 2px gray;
+}
+.github:hover{
+    border-radius: 30px;
+    width: 24px;
+    height: 24px;
+    box-shadow: 2px 2px 2px gray;
+}
+.linkedin:hover{
+    border-radius: 30px;
+    width: 24px;
+    height: 24px;
+    box-shadow: 2px 2px 2px gray;
+}
+button{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 175px;
+    margin-right: 175px;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    transition: width 0.3s, height 0.3s;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    outline: 2px solid black; 
+}
+button:hover{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 175px;
+    margin-right: 175px;
+    font-size: 16px;
+    width: 155px;
+    height: 43px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px gray;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+}
